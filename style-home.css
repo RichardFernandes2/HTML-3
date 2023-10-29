@@ -1,0 +1,68 @@
+
+
+body{
+    background-color: black;
+}
+
+.imagem1{
+    width: 100%;
+}
+
+#SoulsBorne{
+    width: 100%;
+}
+
+.cab{
+    background-color: black;
+}
+
+.principal{
+    background-color: black;
+}
+
+.titulo-centralizado{
+  text-align: center;
+  color: white;
+}
+
+.text1{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.jogos2{
+    color: white;
+    font-size: 20px;
+}
+
+.SoulsGames{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    border: 2px solid;
+}
+
+.SoulsGames:hover{
+    color: #E0FFFF;
+}
+
+.imagemjogos{
+    width: 250px;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px; 
+}
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+}

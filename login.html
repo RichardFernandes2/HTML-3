@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="caixa">
+           <header>
+              <h1><img src="dark-souls-remaster-wiki-logo.png" alt="logo do Dark Souls Wiki"></h1>
+               <nav>
+               <ul class="navegacao">
+                <li><a href="produtos.html">Equipamentos</a></li>
+                <li><a href="Personagens.html">Personagens</a></li>
+                <li><a href="Magias.html">Magias</a></li>
+                <li><a href="Mapas.html">Mapas</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="index.html">Home</a></li>
+             </ul>
+            </nav>
+           </div>
+        </header>
+
+        <main class="formulario">
+            <form>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="Email">Email</label>
+                <input type="email" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="Telefone">Telefone</label>
+                <input type="tel" id="Telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">mensagem</label>
+                <textarea name="" id="mensagem" cols="70" rows="10"></textarea>
+
+                <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+                <label for="radio-Email"><input type="radio" name="contato" value="Email" id="radio-Email">Email</label>
+
+                <label for="radio-Telefone"><input type="radio" name="contato" value="Telefone" id="radio-Telefone">      
+                Telefone</label>
+                
+                <label for="radio-WhatsApp"><input type="radio" name="contato" value="WhatsApp" id="radio-WhatsApp" checked>                    WhatsApp</label>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber as novidades via Email?</label>
+
+
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            
+            </form>
+        </main>
+
+        <footer>
+            <img src="" alt="">
+            <p class="copyright">&copy;Copyright Dark Souls Wiki</p>
+        </footer>
+    </body>
+</html>
